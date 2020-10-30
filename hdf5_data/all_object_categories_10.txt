@@ -1,0 +1,10 @@
+unclassified 0
+Ground 1
+Building 2
+Pole 3
+Bollard 4
+Trash_can 5
+Barrier 6
+Pedestrain 7
+Car 8
+Natural 9

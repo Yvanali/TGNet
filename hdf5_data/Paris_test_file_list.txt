@@ -1,0 +1,2 @@
+/home/ev1-ws3/Documents/Data/small_paris_lille/test/MiniLille2_half_0.h5
+/home/ev1-ws3/Documents/Data/small_paris_lille/test/MiniLille2_zero_0.h5

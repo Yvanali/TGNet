@@ -1,0 +1,4 @@
+/home/ev1-ws3/Documents/Data/small_paris_lille/train/MiniLille1_half_0.h5
+/home/ev1-ws3/Documents/Data/small_paris_lille/train/MiniLille1_zero_0.h5
+/home/ev1-ws3/Documents/Data/small_paris_lille/train/MiniParis1_half_0.h5
+/home/ev1-ws3/Documents/Data/small_paris_lille/train/MiniParis1_zero_0.h5

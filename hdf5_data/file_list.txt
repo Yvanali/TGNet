@@ -1,0 +1,26 @@
+train file
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_1_half_0.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_1_half_1.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_1_half_2.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_1_zero_0.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_1_zero_1.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_1_zero_2.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_2_half_0.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_2_half_1.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_2_half_2.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_2_zero_0.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_2_zero_1.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Lille1_2_zero_2.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Paris_half_0.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Paris_half_1.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Paris_half_2.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Paris_zero_0.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Paris_zero_1.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/train/Paris_zero_2.h5
+
+
+test file
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/test/Lille2_half_0.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/test/Lille2_half_1.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/test/Lille2_zero_0.h5
+/home/ev1-ws3/Documents/Data/Paris_Lille_ori/test/Lille2_zero_1.h5

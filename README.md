@@ -20,10 +20,6 @@ First, find Tensorflow include and library paths.
     TF_LIB=$(python -c 'import tensorflow as tf; print(tf.sysconfig.get_lib())')
 Then, add flags of -I$TF_INC/external/nsync/public -L$TF_LIB -ltensorflow_framework to the g++ commands.
 
-## Segmentation
-To train a model to segment object in Paris-Lille dataset:
-
-    python3 Train_Paris_Lille.py
 
 ### ScanNet
 
@@ -33,11 +29,15 @@ Our processing method is the same as PointNet++: https://github.com/charlesq34/p
 
 Note: To use ScanNetV2 data, change the tsv file to scannetv2-labels.combined.tsv and also update scannet_util.py to read the raw class and NYU40 names in the right columns (shifted by 1 compared to the V1 tsv).
 
-
-### S3DIS
-
 ### Paris_Lille_3D
 
+We prepare the Paris_Lille_3D dataset using the reference here(https://github.com/charlesq34/3dmodel_feature/blob/master/io/write_hdf5.py) to generate HDF5 files for segmentation.
+
+To train a model to segment object in Paris-Lille dataset:
+
+    python3 Train_Paris_Lille.py
+    
+    
 ## Citation
 If you find our work useful in your research, please consider citing:
 

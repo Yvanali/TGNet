@@ -21,7 +21,7 @@ First, find Tensorflow include and library paths.
 Then, add flags of -I$TF_INC/external/nsync/public -L$TF_LIB -ltensorflow_framework to the g++ commands.
 
 ## Segmentation
-To train a model to segment object:
+To train a model to segment object in Paris-Lille dataset:
 
     python3 Train_Paris_Lille.py
 

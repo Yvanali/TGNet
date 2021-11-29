@@ -23,9 +23,19 @@ Then, add flags of -I$TF_INC/external/nsync/public -L$TF_LIB -ltensorflow_framew
 ## Segmentation
 To train a model to segment object:
 
-    python Train_Paris_Lille.py
+    python3 Train_Paris_Lille.py
 
 ### ScanNet
+
+Original dataset website: http://www.scan-net.org/
+
+You can get our preprocessed data at here (1.72GB) and refer to the code in scannet_util.py for data loading. Note that the virtual scan data is generated on the fly from our preprocessed data.
+
+Some code we used for scannet preprocessing is also included in preprocessing folder. You have to download the original ScanNet data and make small modifications in paths in order to run them.
+
+Note: To use ScanNetV2 data, change the tsv file to scannetv2-labels.combined.tsv and also update scannet_util.py to read the raw class and NYU40 names in the right columns (shifted by 1 compared to the V1 tsv).
+
+The same as PointNet++: https://github.com/charlesq34/pointnet2/tree/master/scannet
 
 ### S3DIS
 

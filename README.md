@@ -23,7 +23,7 @@ Then, add flags of -I$TF_INC/external/nsync/public -L$TF_LIB -ltensorflow_framew
 ## Segmentation
 To train a model to segment object:
 
-  python Train_Paris_Lille.py
+  '''python Train_Paris_Lille.py'''
 
 ### ScanNet
 

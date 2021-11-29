@@ -6,9 +6,24 @@ Recent geometric deep learning works define convolution operations in local regi
 
 ![arch](./doc/arch.png)
 
-## Usage
+## Installation
+Install TensorFlow. The code is tested under TF1.4 GPU version and Python 3.5 (version 2 should also work) on Ubuntu 16.04. There are also some dependencies for a few Python libraries for data processing and visualizations like cv2, h5py etc. It's highly recommended that you have access to GPUs.
+
+## Compile Customized TF Operators
+The TF operators are included under tf_ops, you need to compile them (check tf_xxx_compile.sh under each ops subfolder) first. Update nvcc and python path if necessary. The code is tested under TF1.4.0.
+
+To compile the operators in TF version >=1.4, you need to modify the compile scripts slightly.
+
+First, find Tensorflow include and library paths.
+
+    TF_INC=$(python -c 'import tensorflow as tf; print(tf.sysconfig.get_include())')
+    TF_LIB=$(python -c 'import tensorflow as tf; print(tf.sysconfig.get_lib())')
+Then, add flags of -I$TF_INC/external/nsync/public -L$TF_LIB -ltensorflow_framework to the g++ commands.
 
 ## Segmentation
+To train a model to segment object:
+
+  python Train_Paris_Lille.py
 
 ### ScanNet
 
